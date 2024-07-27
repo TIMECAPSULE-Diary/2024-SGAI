@@ -1,0 +1,324 @@
+.Result-Container {
+  color: #ffffff;
+  padding: 20px;
+  height: 844px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.5s ease;
+  overflow-y: auto !important;
+}
+
+.Result-Text {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.Reuslt-time {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #ffecec;
+}
+
+.Result-emotion {
+  width: 55px;
+  height: 30px;
+  background-color: rgba(107, 107, 107, 0.5);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.Result-Slider {
+  width: 100%;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  height: 250px !important;
+  border-radius: 20px;
+  position: relative;
+}
+
+.Result-Slider .slick-list,
+.Result-Slider .slick-track,
+.Result-Slider .slick-slide > div {
+  height: 100%;
+}
+
+.Result-Slide1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px !important;
+  height: 250px; /* 슬라이드의 높이 조정 */
+  background-color: #f1f1f1; /* 슬라이드 배경색 */
+  border-radius: 20px;
+  margin: 0 10px;
+  overflow: visible !important;
+}
+.Result-Slider1 {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  height: 250px !important;
+  border-radius: 20px;
+  position: relative;
+}
+.Result-Slider3 {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  height: 250px !important;
+  border-radius: 20px;
+  position: relative;
+}
+.Result-Slide3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px !important;
+  height: 250px; /* 슬라이드의 높이 조정 */
+  background-color: #f1f1f1; /* 슬라이드 배경색 */
+  border-radius: 20px;
+  margin: 0 10px;
+  overflow: visible !important;
+}
+.Result-Slider1 .slick-list1,
+.Result-Slider1 .slick-track1,
+.Result-Slider1 .slick-slide1 > div {
+  height: 100%;
+}
+
+.Result-Slide1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px !important;
+  height: 250px; /* 슬라이드의 높이 조정 */
+  background-color: #f1f1f1; /* 슬라이드 배경색 */
+  border-radius: 20px;
+  margin: 0 10px;
+  overflow: visible !important;
+}
+
+.slick-prev {
+  display: none !important;
+}
+
+.slick-next {
+  display: none !important;
+}
+
+.slick-dots {
+  position: absolute;
+  top: 350px; /* 위쪽으로 이동, 필요에 따라 값을 조정 */
+  left: 50%; /* 중앙 정렬을 위해 설정 */
+  transform: translateX(-50%); /* 중앙 정렬을 위해 설정 */
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 전체 스크롤바 영역 */
+::-webkit-scrollbar {
+  width: 5px; /* 스크롤바 너비 */
+  height: 5px; /* 스크롤바 높이 (수평 스크롤바) */
+}
+
+/* 스크롤바의 트랙 영역 */
+::-webkit-scrollbar-track {
+  background: transparent; /* 스크롤바 트랙의 배경색 */
+  border-radius: 5px; /* 스크롤바 트랙의 모서리 둥글게 */
+}
+
+/* 스크롤바의 핸들 영역 */
+::-webkit-scrollbar-thumb {
+  background: #7a7a7a; /* 스크롤바 핸들의 배경색 */
+  border-radius: 10px; /* 스크롤바 핸들의 모서리 둥글게 */
+}
+
+/* 핸들이 호버될 때 */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 핸들이 호버될 때 색상 변경 */
+}
+
+.Result-img {
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+  text-align: center;
+}
+
+/* Thumbnail image styling */
+.Thumbnail-Image {
+  max-width: 100%; /* Ensure image does not overflow its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+  object-fit: cover; /* Ensure image covers the container without distortion */
+  margin-top: 30px;
+}
+.Result-text {
+  font-size: 16px;
+  margin-top: 30px;
+}
+.Result-button {
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(153, 153, 153, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.Result-button1 {
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(153, 153, 153, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 250px;
+}
+.Result-Title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: -20px;
+  color: rgb(0, 0, 0);
+}
+.Result-button2 {
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(153, 153, 153, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 200px;
+}
+.Result-button3 {
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(153, 153, 153, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 250px;
+}
+.Result-YouTubeContainer {
+  text-align: center; /* 중앙 정렬 */
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.YouTube-Content {
+  margin-top: 30px;
+  font-size: 15px;
+}
+.YouTube-Link {
+  color: #ffffff; /* YouTube link color */
+  text-decoration: none; /* Remove underline */
+  margin-bottom: 30px;
+}
+
+.YouTube-Link:hover {
+  color: #797979;
+}
+.Slide-ImageContainer {
+  text-align: center; /* Center align the content */
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Image styling */
+.Slide-Image {
+  width: 100%; /* Make the image responsive */
+  max-width: 300px; /* Set a max-width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: adds rounded corners */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+/* Text container styling */
+.Slide-TextContainer {
+  text-align: center; /* Center align text */
+  padding: 10px;
+}
+
+/* Slide title styling */
+.Slide-TextContainer h3 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.Slide-TextContainer3 h3 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Slide description styling */
+.Slide-TextContainer p {
+  margin: 5px 0 0;
+  font-size: 0.8em;
+  color: #555;
+  width: 200px; /* Make the title bold */
+  margin-left: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* Number of lines to show before truncating */
+  -webkit-box-orient: vertical;
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+.Result1-Text {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.Reuslt1-time {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #ffecec;
+}
+
+.Result1-emotion {
+  width: 55px;
+  height: 30px;
+  background-color: rgba(107, 107, 107, 0.5);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.Result1-Title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  color: rgb(0, 0, 0);
+}
+.Slide-VideoContainer {
+  text-align: center; /* Center the video container */
+  margin-bottom: 10px; /* Add space below the video */
+}
+.Slide-Video {
+  width: 250px;
+  height: 200px;
+}

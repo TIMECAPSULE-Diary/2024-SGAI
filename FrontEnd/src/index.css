@@ -1,0 +1,9 @@
+:root {
+  font-family: Pretendard;
+}
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}

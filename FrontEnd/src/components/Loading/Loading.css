@@ -1,0 +1,117 @@
+.Loading-container {
+  background-color: #222;
+  color: #888;
+  padding: 20px;
+  height: 844px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: -140px;
+  margin-bottom: 50px;
+}
+
+.avocado {
+  overflow: inherit;
+  max-height: 85vh;
+}
+
+.avocado__body {
+  animation: body 2s infinite;
+  transform-origin: bottom;
+}
+
+.avocado__leg {
+  animation: legs 1s infinite;
+  transform-origin: bottom;
+}
+
+@keyframes legs {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.7);
+  }
+}
+
+@keyframes body {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  25% {
+    transform: translateY(13px) rotate(2deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0);
+  }
+  75% {
+    transform: translateY(13px) rotate(-2deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+.Loading-text {
+  border-right: solid 5px rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  animation: animated-text 4s linear 0s 1 normal both,
+    animated-cursor 600ms linear infinite;
+  animation-fill-mode: forwards; /* 애니메이션이 끝난 후 상태를 유지 */
+}
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 255px;
+  }
+}
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.Loading-text2 {
+  border-right: solid 5px rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  animation: fadeIn 4s linear 4s 1 normal both,
+    animated-cursor 600ms linear infinite;
+  margin-top: 10px;
+  opacity: 0; /* 시작할 때 숨김 */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  50% {
+    opacity: 1;
+    width: 150px;
+  }
+  100% {
+    opacity: 1;
+    width: 150px;
+  }
+}

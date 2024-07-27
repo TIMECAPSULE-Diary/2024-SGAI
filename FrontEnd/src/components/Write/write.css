@@ -1,0 +1,110 @@
+.Write-Container {
+  background-color: #222;
+  color: #ffffff;
+  padding: 20px;
+  height: 844px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Write-date {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Write-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Write-input {
+  position: relative;
+}
+
+textarea {
+  resize: none;
+  width: 300px !important;
+  height: 350px !important;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Pretendard';
+  color: #d3d3d3;
+  background-color: #272727;
+  resize: none;
+  overflow: auto;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.Write-input textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+.image-upload-container {
+  position: relative;
+  width: 85%;
+  height: 150px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-upload-label {
+  cursor: pointer;
+  color: #00ff0d;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(180, 180, 180, 0.6); /* 반투명 배경 */
+  z-index: 1;
+}
+
+.image-upload-input {
+  display: none;
+}
+
+.image-preview {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.image-preview-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.remove-button {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 2;
+}
+.Write-next {
+  background-color: #4caf50;
+  padding: 10px 110px;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}

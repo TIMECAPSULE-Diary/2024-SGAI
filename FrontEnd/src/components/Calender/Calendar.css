@@ -1,0 +1,167 @@
+.calendar {
+  background-color: #222;
+  color: #888;
+  padding: 20px;
+  height: 844px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.month {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  color: #fff;
+  font-size: 30px;
+}
+
+.days-of-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.day-of-week {
+  font-size: 16px;
+}
+
+.days-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  height: 100%;
+}
+
+.emotion-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 40%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.date-number {
+  font-size: 14px;
+}
+
+.day.selected {
+  background-color: #9b9b9b;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.event-indicator {
+  width: 4px;
+  height: 4px;
+  background-color: #3ce642;
+  border-radius: 50%;
+  margin-bottom: 2px;
+}
+.info-box {
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+
+  height: 200px;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  color: #4caf50;
+}
+.button-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+  position: absolute;
+  top: 750px;
+  left: 4%;
+}
+
+.diary-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  font-weight: 600;
+  font-family: Pretendard;
+}
+.add-button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+.diary-button:hover,
+.add-button:hover,
+.background-button:hover {
+  background-color: #3b7e3e;
+}
+.background-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  font-weight: 600;
+  font-family: Pretendard;
+}
+.emotion-circle {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.emotion-circle img {
+  width: 300%;
+  height: 200%;
+  object-fit: contain;
+}
